@@ -1,0 +1,108 @@
+# Project information
+site_name: Sinápses
+site_url: https://cristianobam.github.io/calculo-numerico/
+site_author: Cristiano Moraes Bilacchi Azarias
+site_description: >-
+  Um mergulho não tão profundo na mente de um humano...
+
+# Repository
+repo_name: cristianobam/blog-post
+repo_url: https://github.com/cristianobam/blog-post
+edit_uri: ""
+# Copyright
+copyright: Copyright &copy; Cristiano Moraes Bilacchi Azarias, 2020
+
+# Configuration
+theme:
+  name: null
+  custom_dir: mkdocs-material/material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  language: pt
+  features:
+    - tabs
+  palette:
+    scheme: preference
+    primary: lime
+    accent: lime
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: fontawesome/solid/user-astronaut
+  favicon: docs/assets/favicon.svg
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cristianobam
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/Cristianobam
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/cristiano-moraes-bilacchi-azarias-572976a9/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/cris_bilacchi
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+      linenums: true
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+
+# Page tree
+nav:
+  - Início: index.md
+  #- Machine Learning:
+  #  - NLP:
+  #    - Bert: MachineLearning/NLP/bert.md
+  - Simulações:
+    - Finanças Simuladas: simulacoes/finances.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_SVG
+  - javascripts/final.js
