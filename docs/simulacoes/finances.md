@@ -1,7 +1,7 @@
 # Finanças Simuladas - EDOs
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Cristianobam/blog-post/blob/master/simulacoes/FinancesSimulation.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Cristianobam/blog-post/blob/master/docs/simulacoes/FinancesSimulation.ipynb)
 
-[![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/ithub/Cristianobam/blog-post/blob/master/simulacoes/FinancesSimulation.ipynb)
+[![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/Cristianobam/blog-post/blob/master/docs/simulacoes/FinancesSimulation.ipynb)
 
 
 **\*\*Disclaimer**
