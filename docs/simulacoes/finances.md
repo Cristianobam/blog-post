@@ -1,8 +1,11 @@
 # Finanças Simuladas - EDOs
+<div class="img-center">
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Cristianobam/blog-post/blob/master/docs/simulacoes/FinancesSimulation.ipynb)
 
 [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/Cristianobam/blog-post/blob/master/docs/simulacoes/FinancesSimulation.ipynb)
 
+</div>
 
 **\*\*Disclaimer**
 
@@ -240,4 +243,9 @@ x(t) = x_0(1+i)^t\\
 
 Como podemos ver, a derivada da função juros composto é proporcional a ela mesma. 
 
-Agora é onde tudo fica ainda mais interessante. 
+Agora é onde tudo fica ainda mais interessante. Com essa nova equação diferencial podemos introduzir um fator investimento na nossa carteira. Todavia, ao invés de fixarmos um capital inicial, vamos disponibilizar um fator $\beta$ do nosso dinheiro para ser investido, onde $\beta\in[0, 1]$. Dessa forma teremos a seguintes equações:
+
+$$\begin{cases}
+\dot{x_1} = (1-\beta)~\delta\\
+\dot{x_2} = \beta~\delta + x_2\ln{(1+R)}
+\end{cases}$$

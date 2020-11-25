@@ -1,8 +1,8 @@
-# Sinápses
+# Sinapses
 
 ## Apresentação
 
-Seja muito bem-vindi ao Sinápse. Um espaço mais livre, mais bagunçado e bem mais livre de assunto. A ideia aqui é fazer uma apanhado das coisas que eu vi e me interessei, o ainda dar uma nova visão sobre assunto que acho interessante.
+Seja muito bem-vindi ao Sinapse. Um espaço mais livre, mais bagunçado e bem mais livre de assunto. A ideia aqui é fazer uma apanhado das coisas que eu vi e me interessei, o ainda dar uma nova visão sobre assunto que acho interessante.
 
 ## Como Funciona
 
